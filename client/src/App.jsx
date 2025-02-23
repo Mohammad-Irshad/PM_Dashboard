@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Header from './components/Header'
-
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, LineElement, PointElement, LinearScale, CategoryScale } from "chart.js";
 import { Line, Doughnut } from "react-chartjs-2";
@@ -15,7 +12,6 @@ ChartJS.register(ArcElement, Tooltip, Legend, LineElement, PointElement, LinearS
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   const revenueData = {
     labels: ["19 June", "20 June", "21 June", "22 June", "23 June", "24 June", "25 June"],

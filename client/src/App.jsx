@@ -49,11 +49,11 @@ function App() {
           <div className='row'>
             <div className='col-md-10'>
               <div className="row">
-                <div className="col-md-2"><div className="card p-3">Total Projects: 5</div></div>
-                <div className="col-md-2"><div className="card p-3">Completed: 1</div></div>
-                <div className="col-md-2"><div className="card p-3">Ongoing: 3</div></div>
-                <div className="col-md-2"><div className="card p-3 text-danger">Delayed: 1</div></div>
-                <div className="col-md-2"><div className="card p-3">Total Employee: 5</div></div>
+                <div className="col-md-2"><div className="card p-3 text-center"><strong>5</strong> Total Projects</div></div>
+                <div className="col-md-2"><div className="card p-3 text-center"><strong>1</strong> Completed</div></div>
+                <div className="col-md-2"><div className="card p-3 text-center"><strong>3</strong> Ongoing</div></div>
+                <div className="col-md-2"><div className="card p-3 text-center text-white bg-danger"><strong>1</strong> Delayed</div></div>
+                <div className="col-md-2"><div className="card p-3 text-center"><strong>5</strong> Total Employee </div></div>
               </div>
               <div className="row mt-4">
                 <div className="col-md-5">
